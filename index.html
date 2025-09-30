@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pré-Cadastro - Palestras Avançadas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4A90E2, #9013FE);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 450px;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 95%;
+      padding: 12px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    button {
+      background: #ffcc00;
+      color: #333;
+      border: none;
+      padding: 14px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #ffaa00;
+    }
+
+    .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Participe das Palestras Avançadas 🚀</h1>
+    <p>Faça seu pré-cadastro gratuitamente e garanta sua vaga nas palestras sobre tecnologia, inovação e mercado digital.</p>
+    
+    <form action="https://formspree.io/f/mnqeklyj" method="POST">
+      <input type="text" name="nome" placeholder="Digite seu nome" required>
+      <input type="email" name="email" placeholder="Digite seu e-mail" required>
+      <button type="submit">Quero me inscrever</button>
+    </form>
+
+    <p class="footer">As vagas são limitadas. Inscreva-se já!</p>
+  </div>
+</body>
+</html>
